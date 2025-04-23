@@ -2,21 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #eef2f7;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background: #007bff;
-    color: white;
+    background: #00509e;
+    color: #fefefe;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 main {
@@ -28,13 +28,19 @@ main {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 section h2 {
-    color: #007bff;
+    color: #00509e;
     margin-bottom: 15px;
 }
 
@@ -60,7 +66,8 @@ ul li::before {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #f1f1f1;
+    background: #e3eaf3;
+    color: #333;
     margin-top: 20px;
 }
 
@@ -71,14 +78,19 @@ table {
     font-size: 1em;
     text-align: left;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+table:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
 table thead {
-    background-color: #007bff;
-    color: white;
+    background-color: #00509e;
+    color: #ffffff;
 }
 
 table th, table td {
@@ -91,21 +103,24 @@ table tbody tr:nth-child(even) {
 }
 
 table tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #e3eaf3;
 }
 
 .btn-link {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
+    padding: 10px 22px;
+    background-color: #00509e;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: 2px solid #00509e;
     font-weight: bold;
     text-align: center;
+    font-size: 1.2em;
     transition: background-color 0.3s ease;
 }
 
 .btn-link:hover {
-    background-color: #0056b3;
+    background-color: #003d7a;
+    border-color: #003d7a;
 }
