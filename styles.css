@@ -124,3 +124,9 @@ table tbody tr:hover {
     background-color: #003d7a;
     border-color: #003d7a;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

@@ -1,4 +1,3 @@
-<!-- filepath: c:\wamp64\www\LLMarques\ERP1\index.php -->
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -17,11 +16,13 @@
     <main>
         <section>
             <h2>Què és un ERP?</h2>
+            <img src="img/erp.png" alt="Sistema ERP">
             <p>Un ERP (Enterprise Resource Planning o Planificació de Recursos Empresarials) és un sistema de gestió integral que permet a les empreses centralitzar i automatitzar els seus processos operatius i administratius en una única plataforma. Aquests sistemes integren dades i funcionalitats de diferents àrees de l'empresa (com finances, recursos humans, inventari, vendes, etc.) per millorar l’eficiència i la presa de decisions.</p>
             <p>Els ERP són programari modular, basats sovint en bases de dades compartides, que eliminen la necessitat de sistemes independents per a cada departament. Exemples coneguts inclouen SAP, Oracle ERP, Microsoft Dynamics 365 i Odoo.</p>
         </section>
         <section>
             <h2>Per a què serveix?</h2>
+            <img src="img/para_que_sirve.png" alt="Utilitat ERP">
             <ul>
                 <li>Unificar la informació de tots els departaments en un sol lloc, evitant duplicitats i errors.</li>
                 <li>Automatitzar processos repetitius (com facturació, gestió d’inventaris o nòmines).</li>
@@ -32,6 +33,7 @@
         </section>
         <section>
             <h2>Quines funcions realitzen?</h2>
+            <img src="img/modulos.jpg" alt="Mòduls ERP">
             <ul>
                 <li><strong>Finances i comptabilitat:</strong> Gestió de factures, balanços, comptes a pagar/cobrar.</li>
                 <li><strong>Vendes i CRM:</strong> Gestió de clients, comandes, campanyes de màrqueting.</li>
@@ -73,12 +75,15 @@
             </ul>
             <p><strong>Exemple pràctic:</strong></p>
             <p>Un ERP integrat evita que el departament de vendes desconegui l’estoc actual o que comptabilitat no registri una venda a temps.</p>
-            
+        </section>
+        <section>
+            <h2>Vídeo explicatiu</h2>
+            <p>Pots veure un vídeo explicatiu sobre ERP fent clic al següent enllaç:</p>
+            <a href="https://youtu.be/9c73cWDmRSs?feature=shared" target="_blank" class="btn-link">Veure vídeo explicatiu</a>
         </section>
     </main>
     <footer>
         <p>&copy; 2023 Informació sobre ERP</p>
-
     </footer>
 </body>
 </html>
